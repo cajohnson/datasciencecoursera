@@ -1,0 +1,39 @@
+'Getting Started
+git config --global user.name "username"
+git config -- global user.email "email"
+
+'Basic Commands
+mkdir ~/reponame
+git init
+git remote add origin https://github.com/cajohnson/reponame.git
+git add README
+git commit -m 'initial project version'
+git push origin master
+
+'Forked Repository
+git clone https://github.com/cajohnson/forkedreponame.git
+
+'Websites
+http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository
+http://help.github.com
+http://git-scm.com/doc
+
+'Other
+git add .
+git add -A
+git checkout -b branchname
+git checkout master
+git log
+
+'More
+pwd
+clear
+ls
+cd
+mkdir
+touch
+cp
+rm
+mv
+date
+echo
